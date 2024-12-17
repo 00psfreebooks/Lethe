@@ -1,23 +1,34 @@
 // script.js
 const newsSources = [
     {
-        category: "Business",
+        category: "Breaking",
         sources: [
             { name: "Google Trending", url: "https://trends.google.com/trends/trendingsearches/daily?geo=US&hl=en-US" },
             { name: "Twitter Trending", url: "https://twitter.com/explore/tabs/trending" },
-            { name: "Capitol Trades", url: "https://www.capitoltrades.com/trades" },
-            { name: "Unusual Whale Trades", url: "https://unusualwhales.com/politics/insider_trades" },
+            { name: "AP News", url: "https://apnews.com/" },
+            { name: "Google News", url: "https://news.google.com/" },
+            { name: "Yahoo", url: "https://news.yahoo.com/" },
+            { name: "Reuters", url: "https://www.reuters.com/" },            
+        ]
+    },
+    {
+        category: "Business",
+        sources: [
+            { name: "Financial Times", url: "https://www.ft.com/" },
             { name: "Bloomberg", url: "https://www.bloomberg.com/" },
             { name: "Yahoo Finance", url: "https://finance.yahoo.com/" },
             { name: "Wall Street Journal", url: "https://www.wsj.com/" },
             { name: "Fox Business", url: "https://www.foxbusiness.com/" },
-            { name: "Financial Times", url: "https://www.ft.com/" },
+            { name: "AP Business", url: "https://apnews.com/business" },
+            { name: "Capitol Trades", url: "https://www.capitoltrades.com/trades" },
+            { name: "Unusual Whale Trades", url: "https://unusualwhales.com/politics/insider_trades" },
         ]
     },
     {
         category: "Politics",
         sources: [
             { name: "EPOCH Times", url: "https://www.theepochtimes.com/" },
+            { name: "AP Politics", url: "https://apnews.com/politics" },
             { name: "CNN Politics", url: "https://www.cnn.com/politics" },
             { name: "BBC Politics", url: "https://www.bbc.com/news/politics" },
             { name: "The Hill", url: "https://thehill.com/" },
